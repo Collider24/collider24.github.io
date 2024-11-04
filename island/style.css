@@ -941,7 +941,7 @@ details[open] summary img {
     }
 
     .discipline_card{
-        height: 700px;
+        height: 800px;
     }
     #to_participants_name{
         font-size: 45px;
@@ -976,7 +976,7 @@ details[open] summary img {
     }
     .stage_header_box {
         width: 430px;
-        height: 130px;
+        height: 150px;
     }
     .stage_header_box_name{
         font-size: 26px;
