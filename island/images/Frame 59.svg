@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="417" height="432" fill="none" viewBox="0 0 417 432">
+  <mask id="a" width="417" height="433" x="0" y="-1" maskUnits="userSpaceOnUse" style="mask-type:alpha">
+    <path fill="#3C3C3C" d="M.5 36.5c0-20.434 16.566-37 37-37h342c20.435 0 37 16.566 37 37v226c0 20.435-16.565 37-37 37h-22.951c-38.515 0-69.573 31.531-68.992 70.041l.376 24.901c.312 20.65-16.343 37.558-36.996 37.558H37.5c-20.434 0-37-16.565-37-37V36.5Z"/>
+  </mask>
+  <g mask="url(#a)">
+    <g filter="url(#b)">
+      <path fill="#D9D9D9" fill-opacity=".1" d="M.5 37c0-20.434 16.566-37 37-37h342c20.435 0 37 16.566 37 37v224c0 20.435-16.565 37-37 37h-22.962c-38.511 0-69.568 31.524-68.993 70.03l.395 26.418c.308 20.648-16.346 37.552-36.996 37.552H37.5c-20.434 0-37-16.565-37-37V37Z"/>
+      <path stroke="#FBF6F6" d="M1 37C1 16.842 17.342.5 37.5.5h342C399.658.5 416 16.842 416 37v224c0 20.158-16.342 36.5-36.5 36.5h-22.962c-38.79 0-70.072 31.752-69.493 70.537l.395 26.418c.304 20.369-16.125 37.045-36.496 37.045H37.5C17.342 431.5 1 415.158 1 395V37Z"/>
+    </g>
+    <path stroke="#1E2796" stroke-linecap="round" stroke-linejoin="round" stroke-width="13" d="M289.083 259.917a14.833 14.833 0 0 1-14.833 14.833h-133.5a14.834 14.834 0 0 1-14.833-14.833v-81.584A14.829 14.829 0 0 1 140.75 163.5h29.667l14.833-22.25h44.5l14.833 22.25h29.667a14.834 14.834 0 0 1 14.833 14.833v81.584Z"/>
+    <path stroke="#1E2796" stroke-linecap="round" stroke-linejoin="round" stroke-width="13" d="M207.5 245.083c16.384 0 29.667-13.282 29.667-29.666 0-16.385-13.283-29.667-29.667-29.667-16.385 0-29.667 13.282-29.667 29.667 0 16.384 13.282 29.666 29.667 29.666Z"/>
+  </g>
+  <rect width="114" height="114" x="302.5" y="432" fill="#C9E156" rx="57" transform="rotate(-90 302.5 432)"/>
+  <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m344.5 390 30-30m-30 0h30v30"/>
+  <defs>
+    <filter id="b" width="436" height="452" x="-9.5" y="-10" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="BackgroundImageFix" stdDeviation="5"/>
+      <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_112_724"/>
+      <feBlend in="SourceGraphic" in2="effect1_backgroundBlur_112_724" result="shape"/>
+    </filter>
+  </defs>
+</svg>

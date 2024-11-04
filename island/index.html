@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Олимпиада СахалинТех</title>
+        <link rel="icon" type="image/x-icon" href="images/icon.svg">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Sarabun:wght@500;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!-- <div id="header">
+            <table border="0">
+                <tr>
+                    <td style="width: 530px;"><p id="header_description">Lorem ipsum dolor sit amet consectetur. Ultricies eget purus augue felis arcu nisl morbi elementum. Tincidunt sapien risus enim egestas vitae. Interdum in vitae sollicitudin pretium massa dui. Mattis enim viverra vel amet commodo ac libero. Amet id sit pellentesque turpis faucibus vel platea malesuada. Lacus egestas porta interdum sollicitudin urna enim.</p></td>
+                    <td><div id="header_separator"></div></td>
+                    <td><h1>Lorem ipsum dolor sit amet consectetur.</h1></td>
+                </tr>
+            </table>
+        </div> -->
+
+        <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img class="navbar_img" src="images/hamburger_menu.svg">
+            </label>
+            <img src="images/logo_island.svg" alt="logo" id="logo">
+            <ul class="navbar_list">
+                <li><button onclick="ScrollToElement('title')"><span class="navbar_text">О нас</span></a></li>
+                <li><button onclick="ScrollToElement('to_participants')"><span class="navbar_text">Участникам</span></a></li>
+                <li><button onclick="ScrollToElement('programm')"><span class="navbar_text">Программа</span></a></li>
+                <li><button onclick="ScrollToElement('gallery_box')"><span class="navbar_text">Галерея</span></a></li>
+                <li><button onclick="ScrollToElement('task_bank')"><span class="navbar_text">Банк заданий</span></a></li>
+                <li style="display: none;"><button onclick="ScrollToElement('news')"><span class="navbar_text">Новости</span></a></li>
+                <li><button onclick="ScrollToElement('contacts')"><span class="navbar_text">Контакты</span></a></li>     
+            </ul>
+        </nav>
+
+        <div class="box" id="title">
+            <div id="header_description_box">
+                <p id="header_description">Конкурс по иностранным языкам «Островной рубеж» – это один из главных пунктов вашего лингвистического путешествия, которое расширяет горизонты и открывает новые двери к высоким целям, глубоким знаниям и неисчерпаемым источникам вдохновения. Если вы хотите расширить свои горизонты, улучшить карьерные перспективы и погрузиться в богатую культуру России и стран изучаемых языков, наш Конкурс – это именно то, что вам нужно.</p>
+            </div>
+            <div id="header_box">
+                <h1 id="header_box_text">Открывая новое окно к тайнам древней мудрости и в мир безграничных возможностей</h1>
+            </div>
+        </div>
+        
+        
+        <!-- <div class="registration_form">
+            <form action="https://formsubmit.co/tarasochkina.sakhalintex@gmail.com" method="POST" />
+                <input type="text" name="Email" placeholder="Электронная почта" required>
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </div> -->
+
+        <!-- <div id="registration_button" onclick="window.open('https://forms.yandex.ru/cloud/66ecd77c73cee705f4ff63d9/', 'mywindow')">
+            <h1 style="color: white; line-height: 0px; text-align: center; vertical-align: middle; position: relative; top: 50%">Регистрация</h1>
+        </div> -->
+
+        <div id="disciplines">
+            <div class="discipline_card">
+                <img src="images/english_logo.svg" style=" margin: 15px; margin-left: 20px; width: 75%;">
+                <p class="discipline_text">В современном мире  английский язык – это универсальный язык международного общения. Экономика, политика, наука, спорт, культура – во всех сферах английский язык играет особую роль, и знать его сегодня – это не роскошь, а необходимость. Ведь не зря говорят: «То имей, что можно всегда пронести с собой: знай языки, знай страны, знай людей. Пусть будет путевым мешком твоим – твоя память». (А. Солженицын).  
+                    <br><br>В 2024 году задания всех этапов номинации «Конкурс на лучшее знание английского языка» направлены на оценку знаний по истории, традиционной культуре и обычаям  стран Азиатско-Тихоокеанского региона.
+                    </p>
+            </div>
+            <div class="discipline_card">
+                <img src="images/korean_logo.svg" style=" margin: 15px; margin-left: 20px; width: 75%;">
+                <p class="discipline_text">В многонациональной семье народов Сахалинской области корейцы занимают особое место в составе населения островного региона. Сегодня изучение корейского языка организовано во многих образовательных учреждениях области и при местных отделениях региональной общественной организации «Сахалинские корейцы». Ведь человек, сформировавшийся на стыке русской и корейской культуры, обладает другим мировосприятием, другим мировоззрением, значительно расширяются горизонты социализации, в круг его интересов вовлекаются совершенно новые, зачастую несхожие культурные пласты.
+                    <br><br>В 2024 году задания всех этапов номинации «Конкурс на лучшее знание корейского языка» направлены на оценку знаний по традиционной культуре и обычаям Страны утренней свежести.
+                    </p>
+            </div>
+            <div class="discipline_card">
+                <img src="images/japanese_logo.svg" style=" margin: 15px; margin-left: 20px; width: 75%;">
+                <p class="discipline_text">Японский – это уникальный восточный язык, тесно переплетенный с историей и культурой страны восходящего солнца. На японском языке говорят 140 миллионов человек на планете, причем для 125 миллионов он является родным, что делает его девятым по употреблению языком в мире. Японский язык неразрывно связан с японской культурой и традициями. Многие выражения и словосочетания отражают особенности японского менталитета и мировосприятия.
+                    <br><br>В 2024 году задания всех этапов номинации «Конкурс на лучшее знание японского языка» направлены на оценку знаний по традиционной культуре и обычаям  Страны восходящего солнца.
+                    </p>
+            </div>
+            <div class="discipline_card">
+                <img src="images/chinese_logo.svg" style=" margin: 15px; margin-left: 20px; width: 75%;">
+                <p class="discipline_text">Китайский язык является одним из самых древних живых языков мира, на котором сейчас говорят более миллиарда человек. Неоспоримо, что в условиях интенсивных процессов глобализации и стремительного развития Китая интерес к изучению китайского языка растет с каждым днем. Это прекрасная возможность начать свой путь к пониманию богатой культуры и истории Китая, а также новые перспективы в области бизнеса и международных отношений. Учебные заведения Сахалинской области предлагают различные программы по изучению китайского языка, привлекая слушателей разных возрастов, профессий и регионов Российской Федерации. 
+                    <br><br>В 2024 году задания всех этапов номинации «Конкурс на лучшее знание китайского языка» направлены на оценку знаний по традиционной культуре и обычаям  Поднебесной империи.
+                    </p>
+            </div>
+
+
+
+        </div>
+
+        <div id="to_participants">
+            <div id="to_participants_color"></div>
+            <div style="height: 4vh;"></div>
+            <div class="to_participants_box">
+                <div id="tab_header_box" style="position: relative;">
+                    <div style="position: absolute; bottom: 0;"><h1 id="to_participants_name">Участникам</h1></div>
+                </div>
+                <div id="tab_header_description_box" style="position: relative;">
+                    <div style="padding-top: 20%; position: absolute; bottom: 0;"><p id="to_participants_description">Lorem ipsum dolor sit amet consectetur. </p></div>
+                </div>
+            </div>
+            <div style="padding-bottom: 10%; padding-top: 3%;">            
+                <details class="to_participants_tab">
+                    <summary>
+                        <div class="question_header">
+                            <h2 class="to_participants_tab_head_1" style="width: 70%;">Категории участников</h2>
+                            <img src="images/dropdown_button_blue.svg" class="to_participants_tab_close_button" style="position: absolute; right: 1em; top: 15%;">
+                        </div>
+                    </summary>
+                    <p id="to_participants_tab_text">В Конкурсе на добровольной основе принимают индивидуальное участие обучающиеся по образовательным программам основного общего, среднего общего образования, среднего профессионального и высшего образования, в том числе лица, осваивающие образовательные программы основного общего и среднего общего образования в форме семейного образования или самообразования, лица, осваивающие указанные образовательные программы за рубежом.</p>
+                    <p id="to_participants_tab_text_big">Номинация 1 «Конкурс на лучшее знание английского языка»</p>
+                    <p id="to_participants_tab_text">Обучающиеся 9-11 классов 
+                        <br>Студенты 2-3 курсов среднего профессионального и высшего образования</p>
+                    <p id="to_participants_tab_text_big">Номинация 2 «Конкурс на лучшее знание корейского языка»</p>
+                    <p id="to_participants_tab_text">Группа А: 
+                        <br>Обучающиеся 5-9 классов 
+                        <br>Группа В:
+                        <br>Обучающиеся 10-11 классов 
+                        <br>Студенты 2-3 курсов среднего профессионального и высшего образования
+                        </p>
+                    <p id="to_participants_tab_text_big">Номинация 3 «Конкурс на лучшее знание японского языка»</p>
+                    <p id="to_participants_tab_text">Группа А: 
+                        <br>Обучающиеся 5-9 классов 
+                        <br>Группа В:
+                        <br>Обучающиеся 10-11 классов 
+                        <br>Студенты 2-3 курсов среднего профессионального и высшего образования
+                        </p>
+                    <p id="to_participants_tab_text_big">Номинация 4 «Конкурс на лучшее знание китайского языка»</p>
+                    <p id="to_participants_tab_text">Группа А: 
+                        <br>Обучающиеся 5-9 классов 
+                        <br>Группа В:
+                        <br>Обучающиеся 10-11 классов 
+                        <br>Студенты 2-3 курсов среднего профессионального и высшего образования
+                        </p>           
+                </details>
+                <details class="to_participants_tab">
+                    <summary>
+                        <div class="question_header">
+                            <h2 class="to_participants_tab_head_2">Правила участия</h2>
+                            <img src="images/dropdown_button_blue.svg" class="to_participants_tab_close_button" style="position: absolute; right: 1em; top: 15%;">
+                        </div>
+                    </summary>
+                    <p id="to_participants_tab_text">Конкурс проводится в два этапа. Первый (отборочный) этап проводится в смешанном формате, второй (заключительный) этап – в очном формате:
+                        <br><br><b>1 этап (отборочный)</b> проводится в форме выполнения письменных тестовых заданий, разработанных оператором Конкурса.
+                        <br><br><b>2 этап (заключительный)</b> проводится в устной форме. На данном этапе проверяются навыки говорения в рамках заданных тем и умение поддерживать беседу. 
+                        <br><br>На 2 этап Конкурса приглашаются участники 1 (отборочного) этапа, прошедшие отбор.
+                        </p>
+                    <div class="download_button" onclick="window.open('files/Положение_о_конкурсе_по ин.языкам_Островной_рубеж.pdf','mywindow');">
+                        <p class="download_button_text">Положение об олимпиаде</p>
+                    </div>
+                </details>
+                <!-- <details class="to_participants_tab">
+                    <summary>
+                        <div class="question_header">
+                            <h2 class="to_participants_tab_head_2">Регистрация</h2>
+                            <img src="images/dropdown_button_blue.svg" class="to_participants_tab_close_button" style="position: absolute; right: 1em; top: 15%;">
+                        </div>
+                    </summary>
+                    <p id="to_participants_tab_text">Для того чтобы подать заявку на участие в олимпиаде, необходимо заполнить и отправить документы на электронную почту: <a style="color: white;" href="mailto:olympiada@sakhgu.ru"> olympiada@sakhgu.ru</a>.</p>
+                    <div class="download_button" id="document_button" onclick="window.open('https://disk.yandex.ru/d/s--G1duBesX_kw/','mywindow');">
+                        <p class="download_button_text">Документы</p>
+                    </div>
+                    <p id="to_participants_tab_text" style="color: red">Недоступно до начала регистрации</p>
+                </details> -->
+            </div>
+        </div>
+        <div id="programm">
+            <div class="to_participants_box" style="max-width: 80em;">
+                <div id="tab_header_box" style="position: relative;">
+                    <div class="tab_header_box_wrapper"><h1 id="to_participants_name" style="color: #ec6522;">Программа</h1></div>
+                </div>
+                <div id="tab_header_description_box" style="position: relative;">
+                    <div style="padding-top: 20%; position: absolute; bottom: 0;"><p id="to_participants_description" style="color: #1D2939; font-weight: 500;">Lorem ipsum dolor sit amet consectetur. </p></div>
+                </div>
+            </div>
+
+            <div class="stage_container">
+                <div class="stage">
+                    <div class="stage_header_box" id="green_complete">
+                        <h2 class="stage_header_box_name">Регистрация</h2>
+                        <p class="stage_header_box_date">10 ноября - 17 ноября 2024 г.</h2>
+                    </div>
+                    <div class="stage_description">
+                        <p class="stage_description_box_text">Заявки на участие в Конкурсе подаются в электронной форме на сайте ФГБОУ ВО «СахГУ» <a href="https://sakhgu.ru">https://sakhgu.ru</a> в разделе «Конкурс по иностранным языкам "Островной рубеж"» или на электронный адрес Организационного комитета конкурса <a href="mailto:KonkursSakh@mail.ru">KonkursSakh@mail.ru.</a> При регистрации необходимо представить в электронном виде согласие на обработку персональных данных.
+                            <br><br>Заявки, поступившие позднее установленных сроков, не рассматриваются.
+                            <br><br>К участию в 1 (отборочном) этапе допускаются участники, подавшие заявку в установленные сроки.
+                            </h2>
+                    </div>
+                </div>
+                <div class="stage">
+                    <div class="stage_header_box" id="blue_complete" style="">
+                        <h2 class="stage_header_box_name">1 этап (отборочный)</h2>
+                        <p class="stage_header_box_date">19 ноября 2024 г.</h2>
+                    </div>
+                    <div class="stage_description">
+                        <p class="stage_description_box_text">Проводится в форме выполнения письменных тестовых заданий, разработанных оператором Конкурса.</h2>
+                    </div>
+                </div>
+                <div class="stage">
+                    <div class="stage_header_box" id="blue_complete">
+                        <h2 class="stage_header_box_name">2 этап (заключительный)</h2>
+                        <p class="stage_header_box_date">27 ноября 2024 г.</h2>
+                    </div>
+                    <div class="stage_description">
+                        <p class="stage_description_box_text">Участникам необходимо выполнить задачи открытого типа. Для участников формируется общий пакет заданий (по 3-5 заданий).</h2>
+                    </div>
+                </div>
+                <div id="margin_container" style="height: 100px;"></div>
+            </div>
+            
+        </div>
+
+        <div id="gallery_box">
+            <div id="to_participants_color"></div>
+            <div style="height: 4vh;"></div>
+            <div class="to_participants_box">
+                <div id="tab_header_box" style="position: relative;">
+                    <div style="position: absolute; bottom: 0;"><h1 id="to_participants_name">Галерея</h1></div>
+                </div>
+                <div id="tab_header_description_box" style="position: relative;">
+                    <div style="padding-top: 20%; position: absolute; bottom: 0;"><p id="to_participants_description">Lorem ipsum dolor sit amet consectetur. </p></div>
+                </div>
+            </div>
+            <div style="padding-bottom: 4%; padding-top: 3%;">            
+                <div class="gallery">
+                    <div class="top">
+                        <a class="img_preview" href="#img_3"><img src="https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=46a85a1451e47aea5152ade8299f2894"></a>
+                        <a class="img_preview" href="#img_5"><img src="https://image.freepik.com/free-photo/sunlight-in-the-forest_1004-9.jpg"></a>
+                        <a class="img_preview" href="#img_6"><img src="https://image.freepik.com/free-photo/road-curve-landscape_426-19324358.jpg"></a>
+                        <a class="img_preview" href="#img_7"><img src="https://image.freepik.com/free-photo/shiny-lights_385-19321244.jpg"></a>
+                        <a class="img_preview" href="#img_8"><img src="https://image.freepik.com/free-photo/skyscraper-with-clouds-reflection_23-10.jpg"></a>
+                        <a class="img_preview" href="#img_9"><img src="https://image.freepik.com/free-photo/foggy-pine-forest_426-19323742.jpg"></a>
+                        <a class="img_preview" href="#img_10"><img src="https://image.freepik.com/free-photo/working-from-bed_385-19324222.jpg"></a>
+                        <a class="img_preview" href="#img_11"><img src="https://image.freepik.com/free-photo/a-sky-full-of-stars_426-19320899.jpg"></a>
+                        <a class="img_preview" href="#img_12"><img src="https://image.freepik.com/free-photo/city-in-bokeh_426-19322711.jpg"></a>
+                        <a class="img_preview" href="#img_13"><img src="https://image.freepik.com/free-photo/desert-and-the-road_426-19314945.jpg"></a>
+                        <a class="img_preview" href="#img_14"><img src="https://image.freepik.com/free-photo/sunlight-through-the-grass_385-19321333.jpg"></a>
+                        <a class="img_preview" href="#img_15"><img src="https://image.freepik.com/free-photo/colorful-springtime_385-19321241.jpg"></a>
+                        <a class="img_preview" href="#img_16"><img src="https://image.freepik.com/free-photo/from-blue-to-brown_426-19320820.jpg"></a>
+                        
+                        
+                        <a href="#_3" class="lightbox trans" id="img_3"><img src="https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=46a85a1451e47aea5152ade8299f2894"></a>
+                        <a href="#_5" class="lightbox trans" id="img_5"><img src="https://image.freepik.com/free-photo/sunlight-in-the-forest_1004-9.jpg"></a>
+                        <a href="#_6" class="lightbox trans" id="img_6"><img src="https://image.freepik.com/free-photo/road-curve-landscape_426-19324358.jpg"></a>
+                        <a href="#_7" class="lightbox trans" id="img_7"><img src="https://image.freepik.com/free-photo/shiny-lights_385-19321244.jpg"></a>
+                        <a href="#_8" class="lightbox trans" id="img_8"><img src="https://image.freepik.com/free-photo/skyscraper-with-clouds-reflection_23-10.jpg"></a>
+                        <a href="#_9" class="lightbox trans" id="img_9"><img src="https://image.freepik.com/free-photo/foggy-pine-forest_426-19323742.jpg"></a>
+                        <a href="#_10" class="lightbox trans" id="img_10"><img src="https://image.freepik.com/free-photo/working-from-bed_385-19324222.jpg"></a>
+                        <a href="#_11" class="lightbox trans" id="img_11"><img src="https://image.freepik.com/free-photo/a-sky-full-of-stars_426-19320899.jpg"></a>
+                        <a href="#_12" class="lightbox trans" id="img_12"><img src="https://image.freepik.com/free-photo/city-in-bokeh_426-19322711.jpg"></a>
+                        <a href="#_13" class="lightbox trans" id="img_13"><img src="https://image.freepik.com/free-photo/desert-and-the-road_426-19314945.jpg"></a>
+                        <a href="#_14" class="lightbox trans" id="img_14"><img src="https://image.freepik.com/free-photo/sunlight-through-the-grass_385-19321333.jpg"></a>
+                        <a href="#_15" class="lightbox trans" id="img_15"><img src="https://image.freepik.com/free-photo/colorful-springtime_385-19321241.jpg"></a>
+                        <a href="#_16" class="lightbox trans" id="img_16"><img src="https://image.freepik.com/free-photo/from-blue-to-brown_426-19320820.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="height: 50px;"></div>
+        <div id="task_bank">
+            <div id="to_participants_color"></div>
+            <div style="height: 4vh;"></div>
+            <div class="to_participants_box">
+                <div id="tab_header_box" style="position: relative;">
+                    <div style="position: absolute; bottom: 0;"><h1 style="color: #13566b;" id="to_participants_name">Банк заданий</h1></div>
+                </div>
+                <div id="tab_header_description_box" style="position: relative;">
+                    <div style="padding-top: 20%; position: absolute; bottom: 0;"><p id="to_participants_description">Lorem ipsum dolor sit amet consectetur. </p></div>
+                </div>
+            </div>
+            <div style="padding-bottom: 10%; padding-top: 3%;">            
+                <details class="to_participants_tab">
+                    <summary>
+                        <div class="question_header">
+                            <h2 class="to_participants_tab_head_1" style="width: 70%; color: #08242c;">Китайский язык</h2>
+                            <img src="images/dropdown_button_green.svg" class="to_participants_tab_close_button" style="position: absolute; right: 1em; top: 15%;">
+                        </div>
+                    </summary>
+                </details>
+                <details class="to_participants_tab">
+                    <summary>
+                        <div class="question_header">
+                            <h2 class="to_participants_tab_head_1" style="width: 70%; color: #08242c;">Корейский язык</h2>
+                            <img src="images/dropdown_button_green.svg" class="to_participants_tab_close_button" style="position: absolute; right: 1em; top: 15%;">
+                        </div>
+                    </summary>
+                </details>
+                <details class="to_participants_tab">
+                    <summary>
+                        <div class="question_header">
+                            <h2 class="to_participants_tab_head_1" style="width: 70%; color: #08242c;">Японский язык</h2>
+                            <img src="images/dropdown_button_green.svg" class="to_participants_tab_close_button" style="position: absolute; right: 1em; top: 15%;">
+                        </div>
+                    </summary>
+                </details>
+                <details class="to_participants_tab">
+                    <summary>
+                        <div class="question_header">
+                            <h2 class="to_participants_tab_head_1" style="width: 70%; color: #08242c;">Английский язык</h2>
+                            <img src="images/dropdown_button_green.svg" class="to_participants_tab_close_button" style="position: absolute; right: 1em; top: 15%;">
+                        </div>
+                    </summary>
+                </details>
+            </div>
+        </div>
+
+        <div id="news">
+            <div style="height: 4vh;"></div>
+            <div class="to_participants_box">
+                <div id="tab_header_box" style="position: relative;">
+                    <div style="position: absolute; bottom: 0;"><h1 id="to_participants_name">Новости</h1></div>
+                </div>
+                <div id="tab_header_description_box" style="position: relative;">
+                    <div style="padding-top: 20%; position: absolute; bottom: 0;"><p id="to_participants_description">Lorem ipsum dolor sit amet consectetur. </p></div>
+                </div>
+            </div>
+            <div class="carousel">
+                <div class="news_tab">
+                    <div class="news_cover">
+                        <image src="images/Frame 59.svg" onclick="OpenPopup('#popup1')" style="width: 80%; height: 80%; padding: 5%; display: block; margin-left: auto; margin-right: auto; cursor: pointer;">
+                        <div class="event_time">
+                            <p style="color: white; text-align: center; vertical-align: middle; position: relative; top: -15%">Уже было</p>
+                        </div>
+                        <div class="news_date" style="margin-top: 3%;">
+                            <span class="dot"></span>
+                            <p style="color: white; margin-left: 5%;">3 августа</p>
+                        </div>
+                        <h2 class="news_header" style="margin-left: 9%; line-height: 1em;">Заголовок события</h2>
+                        <p  class="news_text" style="margin-left: 9%; margin-right: 9%; color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore dolorum inventore. Quidem tenetur aspernatur odit? Reiciendis tempore facilis earum, maiores sapiente similique debitis, at recusandae nam, quisquam quibusdam nulla.</p>
+                    </div>
+                    <div class="news_cover">
+                        <image src="images/Frame 59.svg" onclick="OpenPopup('#popup1')" style="width: 80%; height: 80%; padding: 5%; display: block; margin-left: auto; margin-right: auto; cursor: pointer;">
+                        <div class="event_time">
+                            <p style="color: white; text-align: center; vertical-align: middle; position: relative; top: -15%">Уже было</p>
+                        </div>
+                        <div class="news_date" style="margin-top: 3%;">
+                            <span class="dot"></span>
+                            <p style="color: white; margin-left: 5%;">3 августа</p>
+                        </div>
+                        <h2 class="news_header" style="margin-left: 9%; line-height: 1em;">Заголовок события</h2>
+                        <p  class="news_text" style="margin-left: 9%; margin-right: 9%; color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore dolorum inventore. Quidem tenetur aspernatur odit? Reiciendis tempore facilis earum, maiores sapiente similique debitis, at recusandae nam, quisquam quibusdam nulla.</p>
+                    </div>
+                    <div class="news_cover">
+                        <image src="images/Frame 59.svg" onclick="OpenPopup('#popup1')" style="width: 80%; height: 80%; padding: 5%; display: block; margin-left: auto; margin-right: auto; cursor: pointer;">
+                        <div class="event_time">
+                            <p style="color: white; text-align: center; vertical-align: middle; position: relative; top: -15%">Уже было</p>
+                        </div>
+                        <div class="news_date" style="margin-top: 3%;">
+                            <span class="dot"></span>
+                            <p style="color: white; margin-left: 5%;">3 августа</p>
+                        </div>
+                        <h2 class="news_header" style="margin-left: 9%; line-height: 1em;">Заголовок события</h2>
+                        <p  class="news_text" style="margin-left: 9%; margin-right: 9%; color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore dolorum inventore. Quidem tenetur aspernatur odit? Reiciendis tempore facilis earum, maiores sapiente similique debitis, at recusandae nam, quisquam quibusdam nulla.</p>
+                    </div>
+                    <div class="news_cover">
+                        <image src="images/Frame 59.svg" onclick="OpenPopup('#popup1')" style="width: 80%; height: 80%; padding: 5%; display: block; margin-left: auto; margin-right: auto; cursor: pointer;">
+                        <div class="event_time">
+                            <p style="color: white; text-align: center; vertical-align: middle; position: relative; top: -15%">Уже было</p>
+                        </div>
+                        <div class="news_date" style="margin-top: 3%;">
+                            <span class="dot"></span>
+                            <p style="color: white; margin-left: 5%;">3 августа</p>
+                        </div>
+                        <h2 class="news_header" style="margin-left: 9%; line-height: 1em;">Заголовок события</h2>
+                        <p  class="news_text" style="margin-left: 9%; margin-right: 9%; color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore dolorum inventore. Quidem tenetur aspernatur odit? Reiciendis tempore facilis earum, maiores sapiente similique debitis, at recusandae nam, quisquam quibusdam nulla.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="winners">
+            <div id="winners_color"></div>
+            <div class="to_participants_box" style="max-width: 80em;">
+                <div id="tab_header_box" style="position: relative;">
+                    <div style="position: absolute; bottom: 0;"><h1 id="to_participants_name" style="color: #1E2796;">Победители</h1></div>
+                </div>
+                <div id="tab_header_description_box" style="position: relative;">
+                    <div style="padding-top: 20%; position: absolute; bottom: 0;"><p id="to_participants_description" style="color: #1D2939; font-weight: 500;">Lorem ipsum dolor sit amet consectetur. </p></div>
+                </div>
+            </div>
+            <div class="carousel">
+                <div class="winners_tab">
+                    <div class="winners_cover">
+                        <image src="images/Frame 58.svg" style="width: 80%; height: 80%; padding: 5%; display: block; margin-left: auto; margin-right: auto;">
+                        <div class="place">
+                            <p class="winners_place">1 место</p>
+                        </div>
+                        <div class="nomination" style="margin-top: 3%;">
+                            <span class="dot"></span>
+                            <p style="color: black; margin-left: 5%;">номинация</p>
+                        </div>
+                        <h2 class="winners_name" style="color: black; margin-left: 9%; line-height: 1em;">Фамилия Имя</h2>
+                        <p class="winners_text" style="margin-left: 9%; margin-right: 9%; color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore dolorum inventore. Quidem tenetur aspernatur odit? Reiciendis tempore facilis earum, maiores sapiente similique debitis, at recusandae nam, quisquam quibusdam nulla.</p>
+                    </div>
+                    <div class="winners_cover">
+                        <image src="images/Frame 58.svg" style="width: 80%; height: 80%; padding: 5%; display: block; margin-left: auto; margin-right: auto;">
+                        <div class="place">
+                            <p class="winners_place">1 место</p>
+                        </div>
+                        <div class="nomination" style="margin-top: 3%;">
+                            <span class="dot"></span>
+                            <p style="color: black; margin-left: 5%;">номинация</p>
+                        </div>
+                        <h2 class="winners_name" style="color: black; margin-left: 9%; line-height: 1em;">Фамилия Имя</h2>
+                        <p class="winners_text" style="margin-left: 9%; margin-right: 9%; color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore dolorum inventore. Quidem tenetur aspernatur odit? Reiciendis tempore facilis earum, maiores sapiente similique debitis, at recusandae nam, quisquam quibusdam nulla.</p>
+                    </div>
+                    <div class="winners_cover">
+                        <image src="images/Frame 58.svg" style="width: 80%; height: 80%; padding: 5%; display: block; margin-left: auto; margin-right: auto;">
+                        <div class="place">
+                            <p class="winners_place">1 место</p>
+                        </div>
+                        <div class="nomination" style="margin-top: 3%;">
+                            <span class="dot"></span>
+                            <p style="color: black; margin-left: 5%;">номинация</p>
+                        </div>
+                        <h2 class="winners_name" style="color: black; margin-left: 9%; line-height: 1em;">Фамилия Имя</h2>
+                        <p class="winners_text" style="margin-left: 9%; margin-right: 9%; color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore dolorum inventore. Quidem tenetur aspernatur odit? Reiciendis tempore facilis earum, maiores sapiente similique debitis, at recusandae nam, quisquam quibusdam nulla.</p>
+                    </div>
+                    <div class="winners_cover">
+                        <image src="images/Frame 58.svg" style="width: 80%; height: 80%; padding: 5%; display: block; margin-left: auto; margin-right: auto;">
+                        <div class="place">
+                            <p class="winners_place">1 место</p>
+                        </div>
+                        <div class="nomination" style="margin-top: 3%;">
+                            <span class="dot"></span>
+                            <p style="color: black; margin-left: 5%;">номинация</p>
+                        </div>
+                        <h2 class="winners_name" style="color: black; margin-left: 9%; line-height: 1em;">Фамилия Имя</h2>
+                        <p class="winners_text" style="margin-left: 9%; margin-right: 9%; color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate tempore dolorum inventore. Quidem tenetur aspernatur odit? Reiciendis tempore facilis earum, maiores sapiente similique debitis, at recusandae nam, quisquam quibusdam nulla.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contacts">
+            <div>
+                <h1 class="contacts_header">Контакты</h1>
+            </div>
+            <div class="contacts_tabs">            
+                <div class="contacts_tab">
+                    <h2 class="contacts_tab_header" style="color: black; position: relative; top: -5%">Адрес</h2>
+                    <p class="contacts_tab_text" style="position: relative; top: -10px; width: 85%;">693 000, Южно-Сахалинск, ул. Ленина 290, каб. 20</p>
+                    <h2 class="contacts_tab_header" style="color: black; position: relative; top: -5%">Номер телефона</h2>
+                    <p class="contacts_tab_text" style="position: relative; top: -10px; width: 85%;">+7 (962) 123-23-41 </p>
+                    <p class="contacts_tab_text" style="position: relative; top: -10px; width: 85%;">Корнеева Инна Владимировна</p>
+                    <h2 class="contacts_tab_header" style="color: black; position: relative; top: -10px">Электронная почта</h2>
+                    <p class="contacts_tab_text" style="position: relative; top: -20px; width: 85%;"><a href="mailto:KonkursSakh@mail.ru" style="color: black;">KonkursSakh@mail.ru.</a></p>
+                    <h2 class="contacts_tab_header" style="color: black; position: relative; top: -15px">Найти на картах</h2>
+                    <div class="buttons_container">
+                        <div class="button" onclick="window.open('https://yandex.ru/maps/-/CDhleKMF','mywindow');" id="button_1">
+                            <p style="color: white; text-align: center; vertical-align: middle; position: relative; top: -5%">Яндекс</p>
+                        </div>
+                        <div class="button" onclick="window.open('https://go.2gis.com/h3ugf','mywindow');" id="button_1"><p style="color: white; text-align: center; vertical-align: middle; position: relative; top: -5%">2ГИС</p></div>
+                    </div>
+                </div>
+                <div class="contacts_tab" style="height: 300px;">
+                    <h2 class="contacts_tab_header" style="color: black; position: relative; top: -5%">FAQ</h2>
+                    <p class="contacts_tab_text" style="position: relative; top: -10px; width: 85%;">Здесь вы найдёте ответы на самые часто задаваемые вопросы</p>
+                    <!-- <details class="question">
+                        <summary>
+                            <div class="question_header">
+                                <h2 class="contacts_tab_header" style="font-size: 25px; color: black; margin-left: 5%; position: relative; top: -1px;">Как зарегистрироваться для участия?</h2>
+                                <img class="to_participants_tab_close_button" src="images/dropdown_button.svg" style="margin-right: 5%; margin-top: 3%;">
+                            </div>
+                        </summary>
+                        <p class="contacts_tab_text" style="padding-left: 5%; padding-right: 5%;">Регистрация на олимпиаду будет проводиться через Яндекс.Форму. Необходимо заполнить анкету и предоставить необходимые документы. </p>
+                    </details>
+                    <details class="question">
+                        <summary>
+                            <div class="question_header">
+                                <h2 class="contacts_tab_header" style="font-size: 25px; color: black; margin-left: 5%; position: relative; top: -1px;">Кто может участвовать в олимпиаде?</h2>
+                                <img class="to_participants_tab_close_button" src="images/dropdown_button.svg" style="margin-right: 5%; margin-top: 3%;">
+                            </div>
+                        </summary>
+                        <p class="contacts_tab_text" style="padding-left: 5%; padding-right: 5%;">Принять участие могут учащиеся 8-11 классов РФ, а также 1-2 курсов СПО.</p>
+                    </details>
+                    <details class="question">
+                        <summary>
+                            <div class="question_header">
+                                <h2 class="contacts_tab_header" style="font-size: 25px; color: black; margin-left: 5%; position: relative; top: -1px;">Я зарегистрировался на олимпиаду. Что делать дальше? Как получить доступ к заданиям?</h2>
+                                <img class="to_participants_tab_close_button" src="images/dropdown_button.svg" style="margin-right: 5%; margin-top: 3%;">
+                            </div>
+                        </summary>
+                        <p class="contacts_tab_text" style="padding-left: 5%; padding-right: 5%;">На почту, указанную в Яндекс.форме, Вам придёт инструкция о том, как зайти в личный кабинет участника. Если в течение 2-ух дней Вам не пришла инструкция, напишите на почту олимпиады.</p>
+                    </details> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="popup" id="popup1">
+            <img class="popup_close_button" onclick="ClosePopup('#popup1')" src="images/close_popup.svg">
+            <div class="popup_header_container"><h1 class="popup_header">Заголовок события</h1></div>
+            <div class="popup_text_container"><p class="popup_text">Lorem ipsum dolor sit amet consectetur. Ac quam elementum ut magna in pharetra. Risus vehicula ut euismod purus quis a ac. Amet volutpat tincidunt phasellus consequat urna. At ultrices tempus egestas duis dignissim et praesent eget enim. Egestas amet vehicula urna sagittis sollicitudin risus lacus. Id viverra elit erat euismod lorem sagittis molestie malesuada non. Felis posuere vitae dui sed massa amet facilisis. Viverra ut eu sit malesuada. Lectus quam lacinia laoreet id pellentesque vitae vestibulum dapibus ut. Arcu sagittis faucibus ultrices eu scelerisque ornare leo. Egestas diam id quisque aenean volutpat. Nunc tortor amet cursus egestas dis non ultrices nunc. Vestibulum nulla arcu morbi porttitor gravida sociis.</p></div>
+            <div class="popup_gallery">
+                <img class="popup_photo" src="images/popup_photo.svg">
+                <img class="popup_photo" src="images/popup_photo.svg">
+                <img class="popup_photo" src="images/popup_photo.svg">
+                <img class="popup_photo" src="images/popup_photo.svg"> 
+                <img class="popup_photo" src="images/popup_photo.svg">
+                <img class="popup_photo" src="images/popup_photo.svg">
+                <img class="popup_photo" src="images/popup_photo.svg">
+                <img class="popup_photo" src="images/popup_photo.svg"> 
+            </div>
+            <div style="margin-bottom: 100px;"></div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>$('#check').change(function() {
+        if ($('#check').is(":checked")) {
+          $('body').css('overflow','hidden');
+        } else {
+          $('body').css('overflow','auto');
+        }
+      });
+      function ScrollToElement(element) {
+        document.getElementById(element).scrollIntoView();
+        document.getElementById("check").checked = false;
+        $('body').css('overflow','auto');
+      }
+
+      function OpenPopup(element) {
+        $(element).css('display', 'block');
+        $('body').css('overflow','hidden');
+      }
+
+      function ClosePopup(element) {
+        $(element).css('display', 'none');
+        $('body').css('overflow','auto');
+      }
+      </script>
+</html>
