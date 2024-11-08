@@ -233,7 +233,7 @@ p{
 
 .discipline_card {
     width: 600px;
-    height: 650px;
+    height: 550px;
     background-color: rgba(114, 114, 114, 0.1);
     border-radius: 30px;
     border: 1px solid white;
@@ -372,6 +372,18 @@ p{
     cursor: pointer;
 }
 
+.download_button_long{
+    width: 400px;
+    height: 80px;
+    background-color: rgb(255, 255, 255, 0.3);
+    border: 1px solid white;
+    backdrop-filter: blur(5px);
+    border-radius: 50px;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
 #document_button{
     display: none;
 }
@@ -382,6 +394,16 @@ p{
     top: 10%; 
     color: white;
 }
+
+.download_button_text_long{
+    width: 90%;
+    margin: auto;
+    text-align: center; 
+    position: relative;
+    top: 32%;
+    color: #08242c;
+}
+
 
 #programm {
     margin: auto;
@@ -847,6 +869,8 @@ details[open] summary img {
 	height: 300px;
 	overflow: hidden;
     border-radius: 50px;
+    display: flex;
+    justify-content: center;
 }
 
 .top ul li::before
@@ -941,7 +965,7 @@ details[open] summary img {
     }
 
     .discipline_card{
-        height: 800px;
+        height: 680px;
     }
     #to_participants_name{
         font-size: 45px;
@@ -1085,5 +1109,16 @@ details[open] summary img {
 
     #registration_button > h1 {
         font-size: 30px;
+    }
+
+    .download_button_long {
+        width: 300px;
+    }
+
+    .download_button_text_long{
+        width: 90%;
+        margin: auto;
+        font-size: 16px;
+        top: 25%;
     }
 }
