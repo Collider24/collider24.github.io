@@ -1,0 +1,163 @@
+{
+    "name": "мастер тест",
+    "imageUrl": "/storage/emulated/0/Android/data/com.start.architector/files/Saved Playgrounds/мастер тест.png",
+    "geoposition": false,
+    "latitude": 0,
+    "longitude": 0,
+    "editDate": "27.03.2025 12:50",
+    "saf": [
+        {
+            "id": 370,
+            "position": {
+                "x": 9.902981758117676,
+                "y": 0,
+                "z": 7.2426228523254395
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 368,
+            "position": {
+                "x": -7.8570051193237305,
+                "y": 0,
+                "z": 21.775300979614258
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 366,
+            "position": {
+                "x": 4.742841720581055,
+                "y": 0,
+                "z": 20.959964752197266
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 332,
+            "position": {
+                "x": -9.294873237609863,
+                "y": 0,
+                "z": 7.791481971740723
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 326,
+            "position": {
+                "x": -10.1041259765625,
+                "y": 0,
+                "z": -0.08622550964355469
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 325,
+            "position": {
+                "x": -9.347237586975098,
+                "y": 0,
+                "z": -2.793219804763794
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 323,
+            "position": {
+                "x": -4.987441539764404,
+                "y": 0,
+                "z": -3.087639331817627
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 319,
+            "position": {
+                "x": -5.308838367462158,
+                "y": 0,
+                "z": 5.441037654876709
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 297,
+            "position": {
+                "x": 0.7473362684249878,
+                "y": 0,
+                "z": 8.075425148010254
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 299,
+            "position": {
+                "x": 0.6260919570922852,
+                "y": 0,
+                "z": -5.22412109375
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 294,
+            "position": {
+                "x": 9.390080451965332,
+                "y": 0,
+                "z": -2.7185869216918945
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 293,
+            "position": {
+                "x": 9.453848838806152,
+                "y": 0,
+                "z": -6.282702445983887
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 207,
+            "position": {
+                "x": -7.473581314086914,
+                "y": 0,
+                "z": -17.7082462310791
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 201,
+            "position": {
+                "x": 3.703098773956299,
+                "y": 0,
+                "z": -14.8218355178833
+            },
+            "angle": 0,
+            "violation": false
+        },
+        {
+            "id": 232,
+            "position": {
+                "x": 15.80682373046875,
+                "y": 0,
+                "z": -18.563247680664062
+            },
+            "angle": 0,
+            "violation": false
+        }
+    ],
+    "edges": [],
+    "flags": [],
+    "blueprints": []
+}

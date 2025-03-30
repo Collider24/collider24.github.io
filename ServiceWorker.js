@@ -1,9 +1,9 @@
 const cacheName = "ARGUS-ARGUS-Web-Viewer-0.1.0";
 const contentToCache = [
     "Build/ARGUS-Web-Viewer.loader.js",
-    "Build/ARGUS-Web-Viewer.framework.js.br",
-    "Build/ARGUS-Web-Viewer.data.br",
-    "Build/ARGUS-Web-Viewer.wasm.br",
+    "Build/ARGUS-Web-Viewer.framework.js",
+    "Build/ARGUS-Web-Viewer.data",
+    "Build/ARGUS-Web-Viewer.wasm",
     "TemplateData/style.css"
 
 ];
