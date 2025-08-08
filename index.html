@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Просмотр площадки</title>
+    <title>Просмотр панорамы в 360</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -25,14 +25,14 @@
     <script>
       const hideFullScreenButton = "1";
       const buildUrl = "Build";
-      const loaderUrl = buildUrl + "/ARGUS-Web-Viewer.loader.js";
+      const loaderUrl = buildUrl + "/ARGUS-Pano-Viewer.loader.js";
       const config = {
-        dataUrl: buildUrl + "/ARGUS-Web-Viewer.data",
-        frameworkUrl: buildUrl + "/ARGUS-Web-Viewer.framework.js",
-        codeUrl: buildUrl + "/ARGUS-Web-Viewer.wasm",
+        dataUrl: buildUrl + "/ARGUS-Pano-Viewer.data",
+        frameworkUrl: buildUrl + "/ARGUS-Pano-Viewer.framework.js",
+        codeUrl: buildUrl + "/ARGUS-Pano-Viewer.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "ARGUS",
-        productName: "Просмотр площадки",
+        productName: "Просмотр панорамы в 360",
         productVersion: "0.1.0",
       };
 
@@ -59,9 +59,10 @@
         return false;
       }());
 
+      config.devicePixelRatio = 2;
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         container.className = "unity-mobile";
-        config.devicePixelRatio = 1;
+        config.devicePixelRatio = 2;
       }
       loadingCover.style.display = "";
 
